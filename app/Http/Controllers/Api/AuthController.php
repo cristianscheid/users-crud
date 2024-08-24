@@ -14,7 +14,7 @@ class AuthController extends Controller
     public function signup(SignupRequest $request)
     {
         $data = $request->validated();
-        /** @var User $user */
+        /** @var \App\Models\User $user */
         $user = User::create([
             'name' => $data['name'],
             'email' => $data['email'],
@@ -35,7 +35,7 @@ class AuthController extends Controller
                 'message' => 'Provided email address or password is incorrect.'
             ], 422);
         }
-        /** @var User $user */
+        /** @var \App\Models\User $user */
         $user = Auth::user();
         $token = $user->createToken('main')->plainTextToken;
 
@@ -44,9 +44,9 @@ class AuthController extends Controller
 
     public function logout(Request $request)
     {
-        /** @var User $user */
+        /** @var \App\Models\User $user */
         $user = $request->user();
-        $user->currentAcessToken()->delete();
+        $user->currentAccessToken()->delete();
 
         return response('', 204);
     }
