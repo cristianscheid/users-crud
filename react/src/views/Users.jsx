@@ -25,7 +25,10 @@ export default function Users() {
   };
 
   const getUsers = (page) => {
-    setLoading(true);
+    // setLoading(true) is commented out to avoid a flickering effect during page transitions
+    // The loading is so fast that it causes an unnatural blink on the screen
+    // If needed, you can re-enable this functionality by uncommenting the line
+    // setLoading(true);
     axiosClient
       .get(`/users?page=${page}`)
       .then(({ data }) => {
