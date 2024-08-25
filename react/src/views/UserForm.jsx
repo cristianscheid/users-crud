@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { useStateContext } from "../contexts/ContextProvider.jsx";
 import axiosClient from "../axios-client";
@@ -16,6 +16,7 @@ export default function UserForm() {
     password: "",
     password_confirmation: "",
   });
+  const [initialName, setInitialName] = useState("");
 
   if (id) {
     useEffect(() => {
@@ -25,6 +26,7 @@ export default function UserForm() {
         .then(({ data }) => {
           setLoading(false);
           setUser(data);
+          setInitialName(data.name);
         })
         .catch(() => {
           setLoading(false);
@@ -65,7 +67,7 @@ export default function UserForm() {
 
   return (
     <>
-      {user.id && <h1>Update User: {user.name}</h1>}
+      {user.id && <h1>Update User: {initialName}</h1>}
       {!user.id && <h1>New User</h1>}
       <div className="card animated fadeInDown">
         {loading && <div className="text-center">Loading ...</div>}
