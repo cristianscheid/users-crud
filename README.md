@@ -9,6 +9,8 @@ A simple CRUD application designed to demonstrate the integration of Laravel wit
 - **User Authentication:** Secure sign-up, login, and logout functionality using token-based authentication with Laravel Sanctum.
 - **CRUD Operations:** Basic operations for creating, reading, updating, and deleting user records.
 - **Pagination:** Navigate through different pages of user data with built-in pagination on the frontend.
+- **Notifications:** Provides feedback on CRUD operations such as add, delete, and update.
+- **Validation:** Includes password validation and required field checks to ensure data integrity and user input correctness.
 
 ### Built With
 
