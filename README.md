@@ -31,7 +31,7 @@ A simple CRUD application designed to demonstrate the integration of Laravel wit
 
 ## Visuals
 
-*TODO - add images/videos.*
+https://github.com/user-attachments/assets/dd7169f2-47d6-4967-8b37-7bd18adab395
 
 ## Installation
 
