@@ -17,6 +17,7 @@ A simple CRUD application designed to demonstrate the integration of Laravel wit
 - **Laravel:** The backend is powered by Laravel, handling API endpoints and data management.
 - **React:** The frontend is developed with React, providing a dynamic and interactive user experience.
 - **RESTful API:** Communication between the frontend and backend is achieved through RESTful API calls, supporting user data management and authentication.
+- **MySQL:** Used as the database system for storing and managing application data.
 
 #### Versions
 
