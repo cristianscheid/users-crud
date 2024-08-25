@@ -91,7 +91,6 @@ export default function Users() {
                     <Link to={"/users/" + u.id} className="btn-edit">
                       Edit
                     </Link>
-                    &nbsp;
                     <button
                       onClick={(ev) => onDeleteClick(u)}
                       className="btn-delete"

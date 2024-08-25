@@ -32,7 +32,7 @@ export default function DefaultLayout() {
       </aside>
       <div className="content">
         <header>
-          <div>Header</div>
+          <h3>Laravel + React Project</h3>
           <div>
             {user.name}
             <a href="#" onClick={onLogout} className="btn-logout">
