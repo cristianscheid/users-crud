@@ -26,6 +26,7 @@ A simple CRUD application designed to demonstrate the integration of Laravel wit
 - **Composer:** 2.7.7
 - **Node.js:** v20.9.0
 - **npm:** v10.1.0
+- **MySQL:** 8.0.39
 
 ## Visuals
 
@@ -33,7 +34,7 @@ A simple CRUD application designed to demonstrate the integration of Laravel wit
 
 ## Installation
 
-Ensure your development environment is properly set up. You will need PHP 8.1, Composer, and Node.js.
+Ensure your development environment is properly set up. You will need PHP, Composer, Node.js, npm, and a database system of your choice. Refer to the Versions section for the specific versions used in this project and aim to use the same or newer versions.
 
 - **Clone the Project:** Download the project or clone it using Git: `git clone <repository-url>`
 - **Set Up the Backend:**
