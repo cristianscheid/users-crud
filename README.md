@@ -1,4 +1,4 @@
-# User CRUD
+# Users CRUD
 
 ## Description
 
