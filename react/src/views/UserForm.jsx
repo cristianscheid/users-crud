@@ -40,7 +40,7 @@ export default function UserForm() {
       axiosClient
         .put(`/users/${user.id}`, user)
         .then(() => {
-          setNotification("User was sucessfully updated");
+          setNotification("User was successfully updated");
           navigate("/users");
         })
         .catch((err) => {
@@ -53,7 +53,7 @@ export default function UserForm() {
       axiosClient
         .post("/users", user)
         .then(() => {
-          setNotification("User was sucessfully created");
+          setNotification("User was successfully created");
           navigate("/users");
         })
         .catch((err) => {
