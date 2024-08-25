@@ -37,6 +37,8 @@ https://github.com/user-attachments/assets/dd7169f2-47d6-4967-8b37-7bd18adab395
 
 Ensure your development environment is properly set up. You will need PHP, Composer, Node.js, npm, and a database system of your choice. Refer to the Versions section for the specific versions used in this project and aim to use the same or newer versions.
 
+The `env.example` file is configured for SQLite for simplicity, but you can adjust the settings in your .env file to use your preferred database.
+
 - **Clone the Project:** Download the project or clone it using Git: `git clone <repository-url>`
 - **Set Up the Backend:**
     - Navigate to the project's root directory: `cd path/to/project`
