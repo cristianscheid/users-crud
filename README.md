@@ -6,11 +6,11 @@ A simple CRUD application designed to demonstrate the integration of Laravel wit
 
 ### Features
 
--   Secure sign-up, login, and logout functionality using token-based authentication with Laravel Sanctum.
--   Basic operations for creating, reading, updating, and deleting user records.
--   Pagination on the frontend for navigating through user data.
--   Feedback notifications for actions like adding, deleting, and updating records.
--   Password validation and required field checks to ensure data integrity and correctness.
+- Secure sign-up, login, and logout functionality using token-based authentication with Laravel Sanctum.
+- Basic operations for creating, reading, updating, and deleting user records.
+- Pagination on the frontend for navigating through user data.
+- Feedback notifications for actions like adding, deleting, and updating records.
+- Password validation and required field checks to ensure data integrity and correctness.
 
 ## Built With
 
@@ -39,7 +39,7 @@ To get started with this project, follow the steps below:
 
 2.  **Set up backend environment**
 
-    > The commands below should be run from project root directory (`users-crud/`).
+    Navigate to the backend directory (`users-crud/backend/`).
 
     Install dependencies
 
@@ -75,7 +75,7 @@ To get started with this project, follow the steps below:
 
 3.  **Set up frontend environment**
 
-    > The commands below should be run from react directory (`users-crud/react/`).
+    Navigate to the frontend directory (`users-crud/backend/`).
 
     Install dependencies
 
