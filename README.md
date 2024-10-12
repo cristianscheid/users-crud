@@ -39,7 +39,7 @@ To get started with this project, follow the steps below:
 
 2.  **Set up backend environment**
 
-    Navigate to the backend directory (`users-crud/backend/`).
+    Navigate to the backend directory (`/users-crud/backend/`).
 
     Install dependencies
 
@@ -67,15 +67,9 @@ To get started with this project, follow the steps below:
     php artisan migrate --seed
     ```
 
-    Start the server
-
-    ```
-    php artisan serve
-    ```
-
 3.  **Set up frontend environment**
 
-    Navigate to the frontend directory (`users-crud/backend/`).
+    Navigate to the frontend directory (`/users-crud/frontend/`).
 
     Install dependencies
 
@@ -91,10 +85,18 @@ To get started with this project, follow the steps below:
 
     > Open the `.env` file and set the API base URL to point to your Laravel application (default: `http://localhost:8000`).
 
-    Start the server
+4.  **Start the servers**
+
+    From backend directory (`/users-crud/backend/`):
 
     ```
-    npm run dev
+    php artisan serve
+    ```
+
+    From frontend directory (`/users-crud/frontend/`):
+
+    ```
+    php artisan serve
     ```
 
     ## Usage
