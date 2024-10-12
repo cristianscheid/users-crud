@@ -48,7 +48,7 @@ To get started with this project, follow the steps below:
     ```
 
     - Set up environment variables
-
+    
     ```
     cp .env.example .env
     ```
