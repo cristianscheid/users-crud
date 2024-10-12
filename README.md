@@ -96,7 +96,7 @@ To get started with this project, follow the steps below:
     From frontend directory (`/users-crud/frontend/`):
 
     ```
-    php artisan serve
+    npm run dev
     ```
 
     ## Usage
