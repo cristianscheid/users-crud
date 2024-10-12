@@ -41,13 +41,13 @@ To get started with this project, follow the steps below:
 
     Navigate to the backend directory (`/users-crud/backend/`).
 
-    Install dependencies
+    Install dependencies:
 
     ```
     composer install
     ```
 
-    Set up environment variables
+    Set up environment variables:
 
     ```
     cp .env.example .env
@@ -55,13 +55,13 @@ To get started with this project, follow the steps below:
 
     > Open the `.env` file and configure your database and other settings (you can keep the default settings to use SQLite for simplicity).
 
-    Generate application key
+    Generate application key:
 
     ```
     php artisan key:generate --ansi
     ```
 
-    Run database migrations and seed the database
+    Run database migrations and seed the database:
 
     ```
     php artisan migrate --seed
@@ -71,13 +71,13 @@ To get started with this project, follow the steps below:
 
     Navigate to the frontend directory (`/users-crud/frontend/`).
 
-    Install dependencies
+    Install dependencies:
 
     ```
     npm install
     ```
 
-    Set up environment variables
+    Set up environment variables:
 
     ```
     cp .env.example .env
