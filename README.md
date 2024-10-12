@@ -40,7 +40,6 @@ To get started with this project, follow the steps below:
 2.  **Set up backend environment**
 
     - Navigate to the backend directory (`/users-crud/backend/`)
-
     - Install dependencies
 
     ```
@@ -70,7 +69,6 @@ To get started with this project, follow the steps below:
 3.  **Set up frontend environment**
 
     - Navigate to the frontend directory (`/users-crud/frontend/`)
-
     - Install dependencies
 
     ```
