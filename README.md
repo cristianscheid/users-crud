@@ -6,28 +6,21 @@ A simple CRUD application designed to demonstrate the integration of Laravel wit
 
 ### Features
 
-- **User Authentication:** Secure sign-up, login, and logout functionality using token-based authentication with Laravel Sanctum.
-- **CRUD Operations:** Basic operations for creating, reading, updating, and deleting user records.
-- **Pagination:** Navigate through different pages of user data with built-in pagination on the frontend.
-- **Notifications:** Provides feedback on CRUD operations such as add, delete, and update.
-- **Validation:** Includes password validation and required field checks to ensure data integrity and user input correctness.
+-   Secure sign-up, login, and logout functionality using token-based authentication with Laravel Sanctum.
+-   Basic operations for creating, reading, updating, and deleting user records.
+-   Pagination on the frontend for navigating through user data.
+-   Feedback notifications for actions like adding, deleting, and updating records.
+-   Password validation and required field checks to ensure data integrity and correctness.
 
-### Built With
+## Built With
 
-- **Laravel:** The backend is powered by Laravel, handling API endpoints and data management.
-- **React:** The frontend is developed with React, providing a dynamic and interactive user experience.
-- **RESTful API:** Communication between the frontend and backend is achieved through RESTful API calls, supporting user data management and authentication.
-- **MySQL:** Used as the database system for storing and managing application data.
+![PHP](https://img.shields.io/badge/PHP-8.3-gray?logo=php&style=for-the-badge)
+![Laravel](https://img.shields.io/badge/Laravel-11.20-gray?logo=laravel&style=for-the-badge)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-gray?logo=mysql&style=for-the-badge)
 
-#### Versions
-
-- **Laravel:** 11.20.0
-- **React:** 18.3.1
-- **PHP:** 8.3.10
-- **Composer:** 2.7.7
-- **Node.js:** v20.9.0
-- **npm:** v10.1.0
-- **MySQL:** 8.0.39
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-gray?logo=javascript&style=for-the-badge)
+![React](https://img.shields.io/badge/React-18.3-gray?logo=react&style=for-the-badge)
+![CSS3](https://img.shields.io/badge/CSS3-gray?logo=css3&style=for-the-badge)
 
 ## Visuals
 
@@ -35,24 +28,79 @@ https://github.com/user-attachments/assets/dd7169f2-47d6-4967-8b37-7bd18adab395
 
 ## Installation
 
-Ensure your development environment is properly set up. You will need PHP, Composer, Node.js, npm, and a database system of your choice. Refer to the Versions section for the specific versions used in this project and aim to use the same or newer versions.
+To get started with this project, follow the steps below:
 
-The `env.example` file is configured for SQLite for simplicity, but you can adjust the settings in your .env file to use your preferred database.
+1.  **Clone the repository**
 
-- **Clone the Project:** Download the project or clone it using Git: `git clone <repository-url>`
-- **Set Up the Backend:**
-    - Navigate to the project's root directory: `cd path/to/project`
-    - Copy `.env.example` to `.env` and configure the database credentials: `cp .env.example .env`
-    - Install PHP dependencies using Composer: `composer install`
-    - Generate the application key: `php artisan key:generate --ansi`
-    - Run the database migrations and seed the database: `php artisan migrate --seed`
-    - Start the local server: `php artisan serve`
-- **Set Up the Frontend:**
-    - Open a new terminal and navigate to the React folder: `cd path/to/project/react`
-    - Copy `react/.env.example` to `.env` and adjust the `VITE_API_BASE_URL` parameter: `cp .env.example .env`
-    - Install Node.js dependencies: `npm install`
-    - Start the Vite server for React: `npm run dev`
+    ```
+    git clone https://github.com/cristianscheid/users-crud.git
+    cd users-crud
+    ```
 
-## Usage
+2.  **Set up backend environment**
 
-After completing the installation, open `http://localhost:5173` in your browser to interact with the React frontend of the application. The backend API runs on `http://localhost:8000` and handles data management and authentication.
+    > The commands below should be run from project root directory (`users-crud/`).
+
+    Install dependencies
+
+    ```
+    composer install
+    ```
+
+    Set up environment variables
+
+    ```
+    cp .env.example .env
+    ```
+
+    > Open the `.env` file and configure your database and other settings (you can keep the default settings to use SQLite for simplicity).
+
+    Generate application key
+
+    ```
+    php artisan key:generate --ansi
+    ```
+
+    Run database migrations and seed the database
+
+    ```
+    php artisan migrate --seed
+    ```
+
+    Start the server
+
+    ```
+    php artisan serve
+    ```
+
+3.  **Set up frontend environment**
+
+    > The commands below should be run from react directory (`users-crud/react/`).
+
+    Install dependencies
+
+    ```
+    npm install
+    ```
+
+    Set up environment variables
+
+    ```
+    cp .env.example .env
+    ```
+
+    > Open the `.env` file and set the API base URL to point to your Laravel application (default: `http://localhost:8000`).
+
+    Start the server
+
+    ```
+    npm run dev
+    ```
+
+    ## Usage
+
+    Once the application is running, you can access it at `http://localhost:5173`.
+
+    ## License
+
+    Distributed under the MIT License. See LICENSE.txt for more information.
