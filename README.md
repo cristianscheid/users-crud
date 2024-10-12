@@ -39,68 +39,68 @@ To get started with this project, follow the steps below:
 
 2.  **Set up backend environment**
 
-    - Navigate to the backend directory (`/users-crud/backend/`)
-    - Install dependencies
+- Navigate to the backend directory (`/users-crud/backend/`)
+- Install dependencies
 
-    ```
-    composer install
-    ```
+  ```
+  composer install
+  ```
 
-    - Set up environment variables
-    
-    ```
-    cp .env.example .env
-    ```
+- Set up environment variables
 
-    > Open the `.env` file and configure your database and other settings (you can keep the default settings to use SQLite for simplicity)
+  ```
+  cp .env.example .env
+  ```
 
-    - Generate application key
+  > Open the `.env` file and configure your database and other settings (you can keep the default settings to use SQLite for simplicity)
 
-    ```
-    php artisan key:generate --ansi
-    ```
+- Generate application key
 
-    - Run database migrations and seed the database
+  ```
+  php artisan key:generate --ansi
+  ```
 
-    ```
-    php artisan migrate --seed
-    ```
+- Run database migrations and seed the database
+
+  ```
+  php artisan migrate --seed
+  ```
 
 3.  **Set up frontend environment**
 
-    - Navigate to the frontend directory (`/users-crud/frontend/`)
-    - Install dependencies
+- Navigate to the frontend directory (`/users-crud/frontend/`)
+- Install dependencies
 
-    ```
-    npm install
-    ```
+  ```
+  npm install
+  ```
 
-    - Set up environment variables
+- Set up environment variables
 
-    ```
-    cp .env.example .env
-    ```
+  ```
+  cp .env.example .env
+  ```
 
-    > Open the `.env` file and set the API base URL to point to your Laravel application (default: `http://localhost:8000`)
+  > Open the `.env` file and set the API base URL to point to your Laravel application (default: `http://localhost:8000`)
 
 4.  **Start the servers**
 
-    - From backend directory (`/users-crud/backend/`)
+- From backend directory (`/users-crud/backend/`)
 
-    ```
-    php artisan serve
-    ```
+  ```
+  php artisan serve
+  ```
 
-    - From frontend directory (`/users-crud/frontend/`)
+- From frontend directory (`/users-crud/frontend/`)
 
-    ```
-    npm run dev
-    ```
+  ```
+  npm run dev
+  ```
 
-    ## Usage
+  ## Usage
 
-    Once the application is running, you can access it at `http://localhost:5173`.
+  Once the application is running, you can access it at `http://localhost:5173`.
 
-    ## License
+  ## License
 
-    Distributed under the MIT License. See LICENSE.txt for more information.
+  Distributed under the MIT License. See LICENSE.txt for more information.
