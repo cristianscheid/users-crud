@@ -39,28 +39,28 @@ To get started with this project, follow the steps below:
 
 2.  **Set up backend environment**
 
-    - Navigate to the backend directory (`/users-crud/backend/`)
-    - Install dependencies
+    - Navigate to the backend directory (`/users-crud/backend/`).
+    - Install dependencies:
 
       ```
       composer install
       ```
 
-    - Set up environment variables
+    - Set up environment variables:
 
       ```
       cp .env.example .env
       ```
 
-      > Open the `.env` file and configure your database and other settings (you can keep the default settings to use SQLite for simplicity)
+      > Open the `.env` file and configure your database and other settings (you can keep the default settings to use SQLite for simplicity).
 
-    - Generate application key
+    - Generate application key:
 
       ```
       php artisan key:generate --ansi
       ```
 
-    - Run database migrations and seed the database
+    - Run database migrations and seed the database:
 
       ```
       php artisan migrate --seed
@@ -68,30 +68,30 @@ To get started with this project, follow the steps below:
 
 3.  **Set up frontend environment**
 
-    - Navigate to the frontend directory (`/users-crud/frontend/`)
-    - Install dependencies
+    - Navigate to the frontend directory (`/users-crud/frontend/`).
+    - Install dependencies:
 
       ```
       npm install
       ```
 
-    - Set up environment variables
+    - Set up environment variables:
 
       ```
       cp .env.example .env
       ```
 
-      > Open the `.env` file and set the API base URL to point to your Laravel application (default: `http://localhost:8000`)
+      > Open the `.env` file and set the API base URL to point to your Laravel application (default: `http://localhost:8000`).
 
 4.  **Start the servers**
 
-    - From backend directory (`/users-crud/backend/`)
+    - From backend directory (`/users-crud/backend/`):
 
       ```
       php artisan serve
       ```
 
-    - From frontend directory (`/users-crud/frontend/`)
+    - From frontend directory (`/users-crud/frontend/`):
 
       ```
       npm run dev
