@@ -39,7 +39,7 @@ To get started with this project, follow the steps below:
 
 2.  **Set up backend environment**
 
-    - Navigate to the backend directory (`/users-crud/backend/`).
+    - Navigate to the backend directory (`users-crud/backend/`).
     - Install dependencies:
 
       ```
@@ -68,7 +68,7 @@ To get started with this project, follow the steps below:
 
 3.  **Set up frontend environment**
 
-    - Navigate to the frontend directory (`/users-crud/frontend/`).
+    - Navigate to the frontend directory (`users-crud/frontend/`).
     - Install dependencies:
 
       ```
@@ -85,13 +85,13 @@ To get started with this project, follow the steps below:
 
 4.  **Start the servers**
 
-    - From backend directory (`/users-crud/backend/`):
+    - From backend directory (`users-crud/backend/`):
 
       ```
       php artisan serve
       ```
 
-    - From frontend directory (`/users-crud/frontend/`):
+    - From frontend directory (`users-crud/frontend/`):
 
       ```
       npm run dev
