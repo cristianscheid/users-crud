@@ -1,28 +1,22 @@
 <?xml version="1.0"?>
 <!-- @see https://pear.php.net/manual/en/package.php.php-codesniffer.annotated-ruleset.php -->
-<ruleset name= "Laravel PHPCS Rules">
-
+<ruleset name="Laravel PHPCS Rules">
     <!-- Specify the directories or files to be analyzed -->
     <file>app</file>
-
     <!-- Show progress of the run -->
-    <arg value= "p"/>
-
+    <arg value="p"/>
     <!-- Show sniff codes in all reports -->
-    <arg value= "s"/>
-
+    <arg value="s"/>
     <!-- Set base rule to PSR12 and exclude certain spacing rules -->
     <rule ref="PSR12">
         <exclude name="PSR12.Operators.OperatorSpacing.NoSpaceBefore"/>
         <exclude name="PSR12.Operators.OperatorSpacing.NoSpaceAfter"/>
     </rule>
-
     <!-- Set line length limits -->
-    <rule ref= "Generic.Files.LineLength">
+    <rule ref="Generic.Files.LineLength">
         <properties>
             <property name="lineLimit" value="80"/>
             <property name="absoluteLineLimit" value="120"/>
         </properties>
     </rule>
-    
 </ruleset>
