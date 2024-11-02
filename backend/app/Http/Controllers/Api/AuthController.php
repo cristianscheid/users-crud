@@ -18,7 +18,7 @@ class AuthController extends Controller
         $user = User::create([
             'name' => $data['name'],
             'email' => $data['email'],
-            'password' => bcrypt($data['password'])
+            'password' => bcrypt($data['password']),
         ]);
 
         $token = $user->createToken('main')->plainTextToken;
@@ -30,9 +30,9 @@ class AuthController extends Controller
     {
         $data = $request->validated();
         $credentials = $request->validated();
-        if (!Auth::attempt($credentials)) {
+        if (! Auth::attempt($credentials)) {
             return response([
-                'message' => 'Provided email address or password is incorrect.'
+                'message' => 'Provided email address or password is incorrect.',
             ], 422);
         }
         /** @var \App\Models\User $user */
