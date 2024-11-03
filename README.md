@@ -20,7 +20,7 @@ A simple CRUD application designed to demonstrate the integration of Laravel wit
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-gray?logo=javascript&style=for-the-badge)
 ![React](https://img.shields.io/badge/React-18.3-gray?logo=react&style=for-the-badge)
-![CSS3](https://img.shields.io/badge/CSS3-gray?logo=css3&style=for-the-badge)
+![CSS](https://img.shields.io/badge/CSS-CSS3-gray?logo=css3&style=for-the-badge)
 
 ## Visuals
 
