@@ -14,13 +14,20 @@ A simple CRUD application designed to demonstrate the integration of Laravel wit
 
 ## Built With
 
-![PHP](https://img.shields.io/badge/PHP-8.3-gray?logo=php&style=for-the-badge)
-![Laravel](https://img.shields.io/badge/Laravel-11.20-gray?logo=laravel&style=for-the-badge)
-![MySQL](https://img.shields.io/badge/MySQL-8.0-gray?logo=mysql&style=for-the-badge)
+![PHP][php-badge]
+![Laravel][laravel-badge]
+![MySQL][mysql-badge]
 
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6-gray?logo=javascript&style=for-the-badge)
-![React](https://img.shields.io/badge/React-18.3-gray?logo=react&style=for-the-badge)
-![CSS](https://img.shields.io/badge/CSS-CSS3-gray?logo=css3&style=for-the-badge)
+![JavaScript][javascript-badge]
+![React][react-badge]
+![CSS][css-badge]
+
+[php-badge]: https://img.shields.io/badge/PHP-8.3-gray?style=for-the-badge&logo=php&logoColor=white
+[laravel-badge]: https://img.shields.io/badge/Laravel-11.20-gray?style=for-the-badge&logo=laravel&logoColor=white
+[mysql-badge]: https://img.shields.io/badge/MySQL-8.0-gray?style=for-the-badge&logo=mysql&logoColor=white
+[javascript-badge]: https://img.shields.io/badge/JavaScript-ES6-gray?style=for-the-badge&logo=javascript&logoColor=white
+[react-badge]: https://img.shields.io/badge/React-18.3-gray?style=for-the-badge&logo=react&logoColor=white
+[css-badge]: https://img.shields.io/badge/CSS-CSS3-gray?style=for-the-badge&logo=css3&logoColor=white
 
 ## Visuals
 
