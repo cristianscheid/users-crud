@@ -22,13 +22,6 @@ A simple CRUD application designed to demonstrate the integration of Laravel wit
 ![React][react-badge]
 ![CSS][css-badge]
 
-[php-badge]: https://img.shields.io/badge/PHP-8.3-gray?style=for-the-badge&logo=php&logoColor=white
-[laravel-badge]: https://img.shields.io/badge/Laravel-11.20-gray?style=for-the-badge&logo=laravel&logoColor=white
-[mysql-badge]: https://img.shields.io/badge/MySQL-8.0-gray?style=for-the-badge&logo=mysql&logoColor=white
-[javascript-badge]: https://img.shields.io/badge/JavaScript-ES6-gray?style=for-the-badge&logo=javascript&logoColor=white
-[react-badge]: https://img.shields.io/badge/React-18.3-gray?style=for-the-badge&logo=react&logoColor=white
-[css-badge]: https://img.shields.io/badge/CSS-CSS3-gray?style=for-the-badge&logo=css3&logoColor=white
-
 ## Visuals
 
 https://github.com/user-attachments/assets/dd7169f2-47d6-4967-8b37-7bd18adab395
@@ -111,3 +104,12 @@ To get started with this project, follow the steps below:
     ## License
 
     Distributed under the MIT License. See LICENSE.txt for more information.
+
+<!-- Badges for 'Built With' section -->
+
+[php-badge]: https://img.shields.io/badge/PHP-8.3-gray?style=for-the-badge&logo=php&logoColor=white
+[laravel-badge]: https://img.shields.io/badge/Laravel-11.20-gray?style=for-the-badge&logo=laravel&logoColor=white
+[mysql-badge]: https://img.shields.io/badge/MySQL-8.0-gray?style=for-the-badge&logo=mysql&logoColor=white
+[javascript-badge]: https://img.shields.io/badge/JavaScript-ES6-gray?style=for-the-badge&logo=javascript&logoColor=white
+[react-badge]: https://img.shields.io/badge/React-18.3-gray?style=for-the-badge&logo=react&logoColor=white
+[css-badge]: https://img.shields.io/badge/CSS-CSS3-gray?style=for-the-badge&logo=css3&logoColor=white
